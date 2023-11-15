@@ -13,7 +13,7 @@ export default async function Info() {
           width={410}
           height={600}
           draggable={false}
-          className="w-1/2 h-1/2 am:w-full am:h-full rounded-xl shadow-lg object-cover min-w-[8rem]"
+          className="w-1/2 h-1/2 am:w-full sm:h-full rounded-xl shadow-lg object-cover min-w-[8rem]"
         />
         <aside className="flex flex-col gap-y-1.5 p-2 w-full">
           <h3 className="text-2xl sm:text-3xl font-semibold">{data.title}</h3>

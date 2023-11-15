@@ -7,7 +7,7 @@ export default async function Mars() {
     sol: 1000,
   });
 
-  const firstPhotos = photos.slice(0, 4);
+  const firstPhotos = photos.slice(0, 6);
   return (
     <Container>
       <Container.Title
