@@ -1,8 +1,11 @@
 import { picturesApi } from "@/api";
 import { Link } from "@nextui-org/react";
 import { CaretDoubleDown, CaretRight } from "@phosphor-icons/react/dist/ssr";
-import { Image } from "@/components";
+import Image from "next/image";
 
+export const preload = () => {
+  picturesApi.getPod();
+};
 export default async function PictureOfTheDay() {
   const data = await picturesApi.getPod();
 

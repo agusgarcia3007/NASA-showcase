@@ -1,6 +1,9 @@
 import { picturesApi } from "@/api";
 import Image from "next/image";
 
+export const preload = () => {
+  picturesApi.getPod();
+};
 export default async function Info() {
   const data = await picturesApi.getPod();
 

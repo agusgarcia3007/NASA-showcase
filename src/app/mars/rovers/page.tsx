@@ -8,6 +8,8 @@ export default async function Rovers() {
     sol: 1000,
   });
 
+  console.log(photos);
+
   return (
     <Container>
       <Container.Title uppercase size="large">
